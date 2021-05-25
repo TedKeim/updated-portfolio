@@ -7,16 +7,31 @@
     <title>portfolio</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <div class="gradient"
+    <div class="gradient">
         <header>
-            <nav>
+            <section class="p-menu1">
+                <nav id="navbar" class="navigation" role="navigation">
+                  <input id="toggle1" type="checkbox" />
+                  <label class="hamburger1" for="toggle1">
+                    <div class="top"></div>
+                    <div class="meat"></div>
+                    <div class="bottom"></div>
+                  </label>
+                
+                  <nav class="menu1">
+                    <a class="link1" href="">Resume</a>
+                    <a class="link1" href="https://github.com/TedKeim">Github</a>
+                    <a class="link1" href="https://www.linkedin.com/in/ted-keim-a93262203/">Linkedin</a>
+                    <a class="link1" href="projects.html">My Projects</a>
+                  </nav>
+              </nav>
+              </section>
                 <h1 class="name">Ted Keim</h1>
-                <img class="linkedin" src="img/linked-in.jpeg">
-                <img class="github" src="img/github-img.jpeg">
-            </nav>
             <main>
                 <section class="info">
                     <div class="image">
@@ -25,14 +40,13 @@
                 </section>
             </main>
         </header>
-    </div>
         <footer class="footer">
             <nav>
-             <h3>Contact Me:</h3>   
              <h3 class="email">tedkeim@yahoo.com</h3>
              <h3 class="number">724-787-9387</h3>
             </nav>
         </footer>
+    </div>
     <script src= "assets/script.js"></script>
 </body>
 </html>
