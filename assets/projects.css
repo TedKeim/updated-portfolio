@@ -15,24 +15,16 @@
     height: 100%;
 }
 
-.about {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: xx-large;
-}
-
-.about-me {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: large;
-}
-
 .languages {
     color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-left: 15px;
 }
 
 .list {
     color: rgb(255, 255, 255);
+    margin-left: 45px;
+    font-size: 20px;
 }
 
 .projects {
@@ -64,7 +56,7 @@
 
 .dayPlanner {
     float: right;
-    margin-top: -470px;
+    margin-top: -521px;
 }
 .planner {
     height: 400px;
