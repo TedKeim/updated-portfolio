@@ -45,12 +45,13 @@
 
   .email{
     float: right;
-    padding-right: 5px;
+    padding-right: 15px;
   }
 
   .number {
       float: right;
-      padding-right: 550px;
+      margin-top: 40px;
+      margin-right: -150px;
   }
   
   .linkedin {
