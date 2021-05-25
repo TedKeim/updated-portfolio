@@ -18,11 +18,13 @@
 .about {
     color: rgb(255, 255, 255);
     text-align: center;
+    font-size: xx-large;
 }
 
 .about-me {
     color: rgb(255, 255, 255);
     text-align: center;
+    font-size: large;
 }
 
 .languages {
@@ -31,4 +33,44 @@
 
 .list {
     color: rgb(255, 255, 255);
+}
+
+.projects {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.link1 {
+    color: rgb(255, 255, 255);
+}
+
+.project1 {
+    height: 400px;
+    width: 400px;
+}
+
+.fighter-stats {
+    float: left;
+}
+
+.quiz {
+    height: 400px;
+    width: 400px;
+}
+
+.code-quiz {
+    margin-right: 390px;
+}
+
+.dayPlanner {
+    float: right;
+    margin-top: -470px;
+}
+.planner {
+    height: 400px;
+    width: 400px;
+}
+
+.skills {
+    margin-top: 20px;
 }
