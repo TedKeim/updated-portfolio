@@ -1,6 +1,34 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -ms-flex: 1;
+    flex: 1;
+}
+
 .gradient {
     background: radial-gradient(rgb(20, 49, 77), rgb(5, 7, 15));
     position: absolute;
     width: 100%;
     height: 100%;
+}
+
+.about {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.about-me {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.languages {
+    color: rgb(255, 255, 255);
+}
+
+.list {
+    color: rgb(255, 255, 255);
 }
