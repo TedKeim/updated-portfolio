@@ -9,7 +9,7 @@
 }
 
 .gradient {
-    background: radial-gradient(rgb(15, 59, 39), rgb(5, 7, 15));
+    background: radial-gradient(rgb(59, 47, 15), rgb(0, 0, 0));
     position: absolute;
     width: 100%;
     min-height: 100%;
