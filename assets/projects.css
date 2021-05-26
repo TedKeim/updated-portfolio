@@ -76,11 +76,18 @@
     height: 100px;
     width: 200px;
     margin-bottom: 30px;
-    font-size: 20px;
-    display: inline-block;
-    border: 0.1em solid #fff;
-    border-radius: 0.12em;
-    box-sizing: border-box;
-    transition: all 0.2s;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 0.6em;
+    color: rgb(79, 160, 192);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1;
     text-align: center;
+}
+
+#projectsBtn:hover, #projectsBtn:focus {
+    color: #fff;
+    outline: 0;
+    background-color: rgb(79, 160, 192);
 }
